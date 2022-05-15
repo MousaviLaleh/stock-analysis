@@ -6,7 +6,7 @@ I have created an Excel file containing the stock over the last few years. I wil
 
 ### Purpose
 #### Refactor VBA code and measure performance:
-At the click of a button, Steve can analyze an entire dataset.
+It means improving the logic of the code in order to make it more efficient to works well for thousands of stocks. At the click of a button, Steve can analyze an entire dataset.
 
 
 ## Analysis and Challenges
