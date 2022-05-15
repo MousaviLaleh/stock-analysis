@@ -10,7 +10,7 @@ Steve wants to to expand the dataset to include the entire stock market. I have 
 
 ## Code Review
 The code should do the following:
-- Set the startTime and endTime variables to measure and show the code running time.
+- Set the startTime and endTime variables to measure and show the code running time.<br/>
     ![times.png](/resources/times.png)<br/>
     note that the startTime must be call right after inputBox to calculate the time from this point of progress. <br/>
 
