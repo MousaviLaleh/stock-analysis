@@ -1,11 +1,12 @@
 # stock-analysis
 
 ## Overview of Project
-Steve wnats to research about Green Energy stocks and finds out which company has the best performance, to invest in, specifically DAQO New Energy Corp, a company that makes silicon wafers for solar panels. 
+Steve wnats to research about Green Energy stocks and finds out which company has the best performance, to invest in, specifically DAQO New Energy Corp, a company that makes silicon wafers for solar panels.<br/>
+I have created an Excel file containing the stock over the last few years. I will be using VBA to automate tasks, which makes us to reuse codes for any stock, reduces the chance of accidents and errors and increases the code running time.
 
 ### Purpose
-#### Refactor VBA code and measure performance
-I have created an Excel file containing the stock over the last few years. I will be using VBA to automate tasks, which makes us to reuse codes for any stock, reduces the chance of accidents and errors and increases the code running time. At the click of a button, Steve can analyze an entire dataset.
+#### Refactor VBA code and measure performance:
+At the click of a button, Steve can analyze an entire dataset.
 
 
 ## Analysis and Challenges
