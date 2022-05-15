@@ -38,27 +38,10 @@ The code should do the following:
     
     RowCount = Cells(Rows.Count, "A").End(xlUp).Row
 
-- first For loop : to loop through the tickers and initialize the tickerVolumes to zero.<br/>
-   For tickerIndex = 0 To 11
-       tickerVolumes(tickerIndex) = 0
-    .
-    .
-    Next  tickerIndex
-
-- inside this for first set the tickerVolumes equal to zero
-- ff
-
-- second For loop ( For i = 2 To RowCount ) : to loop over all the rows in the spreadsheet, and calculate the total volume of, startinPrice and endingPrice of each ticker <br/>
-    For i = 2 To RowCount <br/>
-      tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value <br/>
-      If Cells(i - 1, 1).Value <> tickers(tickerIndex) And Cells(i, 1).Value = tickers(tickerIndex) Then
-          tickerStartingPrices(tickerIndex) = Cells(i, 6).Value <br/>
-      End If <br/>
-      If Cells(i + 1, 1).Value <> tickers(tickerIndex) And Cells(i, 1).Value = tickers(tickerIndex) Then
-         tickerEndingPrices(tickerIndex) = Cells(i, 6).Value     'Ending Close
-         tickerIndex = tickerIndex + 1
-      End If
-    Next i
+- Create two For loop 
+    - first For loop : to loop through the tickers and initialize the tickerVolumes to zero.
+    - second For loop : to loop over all the rows in the spreadsheet, and calculate the total volume of, startinPrice and endingPrice of each ticker <br/>
+  ![forloops_01.png](/resources/forloops_01.png) <br/>
     
 
 - third For loop ( For i = 0 To 11 ) : to loop through four arrays to output the Ticker name, Total Daily Volume, and Return
