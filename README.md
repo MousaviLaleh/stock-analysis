@@ -32,7 +32,7 @@ Steve wants to to expand the dataset to include the entire stock market. I have 
     
     Worksheets(yearValue).Activate <br/>
     
-    this code calls the soirce sheet of data
+    this code calls the source sheet of data to work on <br/>
     
 6. Lets find out how many rows we need to loop over
     
@@ -43,6 +43,7 @@ Steve wants to to expand the dataset to include the entire stock market. I have 
 9. second For loop ( For i = 2 To RowCount ) : to loop over each ticker data, and calculate the total volume of, startinPrice and endingPrice of each ticker
 10. third For loop ( For i = 0 To 11 ) : to loop through four arrays to output the Ticker name, Total Daily Volume, and Return
 11. formatting section 
+12. ClearWorksheet() subroutine is for clear the entire worksheet from any formatting 
 
 
 ## Results
