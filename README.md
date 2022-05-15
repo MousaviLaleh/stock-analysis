@@ -25,7 +25,7 @@ The code should do the following:
     Worksheets("All Stocks Analysis").Activate <br/>
     
     
-4. Arrays that save the result for every ticker: 
+- Initialize arrays that save the result for every ticker: 
    - tickers : an array to save the name of tickers
    - tickerVolumes : an array to save the total revenue volume of each ticker
    - tickerStartingPrices : an array to save the first price of each ticker
