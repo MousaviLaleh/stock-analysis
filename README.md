@@ -40,7 +40,7 @@ The code should do the following:
 
 - Create two For loop 
     - first For loop : to loop through the tickers and initialize the tickerVolumes to zero.
-    - second For loop : to loop over all the rows in the spreadsheet, and calculate the total volume of, startinPrice and endingPrice of each ticker <br/>
+    - second For loop : to loop over all the rows in the spreadsheet, and calculate the total volume, startinPrice and endingPrice for each ticker <br/>
   ![forloops_01.png](/resources/forloops_01.png) <br/>
     
 
