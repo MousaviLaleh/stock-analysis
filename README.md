@@ -32,7 +32,7 @@ Steve wants to to expand the dataset to include the entire stock market. I have 
     
     Worksheets(yearValue).Activate <br/>
     
-    this code calls the source sheet of data to work on 
+    this code calls the source sheet of data to work on <br/>
     
 6. Lets find out how many rows we need to loop over
     
