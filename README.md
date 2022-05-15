@@ -14,7 +14,7 @@ To have an automated code, we need to use an InputBox to get the choice of the y
 
 1. Source Sheets:  are the 2017, and 2018  sheets; which contain the data of 11 different stock company for the years of 2017 and 2018
     we use this code to active the output data sheet <br/>
-2. output Sheet: All Stocks Analysis
+2. output Sheet: is the sheet that we show the results in it.in this project "All Stocks Analysis" is the output sheet.
     to active the output data sheet, we write this code <br/>
     Worksheets("All Stocks Analysis").Activate <br/>
     
