@@ -17,7 +17,7 @@ Steve wants to to expand the dataset to include the entire stock market. I have 
     we use this code to active the output data sheet <br/>
 3. Output Sheet: is the sheet that we show the results in it.in this project "All Stocks Analysis" is the output sheet.<br/>
     to active the output data sheet: <br/>
-                                        Worksheets("All Stocks Analysis").Activate <br/>
+    Worksheets("All Stocks Analysis").Activate <br/>
     
     
 4. Arrays that save the result for every ticker: 
@@ -32,7 +32,7 @@ Steve wants to to expand the dataset to include the entire stock market. I have 
     
     Worksheets(yearValue).Activate <br/>
     
-    this code calls the source sheet of data to work on <br/>
+    this code calls the source sheet of data to work on 
     
 6. Lets find out how many rows we need to loop over
     
