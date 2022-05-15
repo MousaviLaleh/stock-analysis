@@ -9,14 +9,14 @@ Steve wants to to expand the dataset to include the entire stock market. I have 
 
 
 ## Code Review
-To have an automated code, we need to use an InputBox to get the choice of the year
+To have an automated code, we need to use an InputBox to get the choice of the year <br/>
 ![inputBox.png](/resources/inputBox.png)
 
 1. Source Sheets:  are the 2017, and 2018  sheets; which contain the data of 11 different stock company for the years of 2017 and 2018
-    we use this code to active the output data sheet 
+    we use this code to active the output data sheet <br/>
 3. output Sheet: All Stocks Analysis
     to active the output data sheet, we write this code
-    Worksheets("All Stocks Analysis").Activate
+    Worksheets("All Stocks Analysis").Activate br/>
     
     
 5. Arrays that save the result for every ticker: 
