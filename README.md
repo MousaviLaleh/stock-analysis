@@ -38,15 +38,17 @@ The code should do the following:
     
     RowCount = Cells(Rows.Count, "A").End(xlUp).Row
 
-- Create two For loop 
+- Create two For loop to work on data
     - first For loop : to loop through the tickers and initialize the tickerVolumes to zero.
-    - second For loop : to loop over all the rows in the spreadsheet, and calculate the total volume, startinPrice and endingPrice for each ticker <br/>
+    - inner For loop + conditional : to loop over all the rows in the spreadsheet, and calculate the total volume, startinPrice and endingPrice for each ticker <br/>
   ![forloops_01.png](/resources/forloops_01.png) <br/>
+multiple conditions check if the current row is the first row with the selected ticker. If it is, then assign the current price to tickerStartingPrices variable. similarly, for the tickerEndingPrices variable.
     
 
-- third For loop ( For i = 0 To 11 ) : to loop through four arrays to output the Ticker name, Total Daily Volume, and Return
-11. formatting section 
-12. ClearWorksheet() subroutine is for clear the entire worksheet from any formatting 
+- third For loop ( For i = 0 To 11 ) : to loop through four arrays to output the Ticker name, Total Daily Volume, and Return <br/>
+  ![forloops_02.png](/resources/forloops_02.png) <br/>
+- formatting section 
+- ClearWorksheet() subroutine is for clear the entire worksheet from any formatting 
 
 
 ## Results
