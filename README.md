@@ -9,17 +9,18 @@ Steve wants to to expand the dataset to include the entire stock market. I have 
 
 
 ## Code Review
-To have an automated code, we need to use an InputBox to get the choice of the year <br/>
-![inputBox.png](/resources/inputBox.png)
 
-1. Source Sheets:  are the 2017, and 2018  sheets; which contain the data of 11 different stock company for the years of 2017 and 2018
+1. To have an automated progress, we need to use an InputBox to get the choice of the year from user <br/>
+![inputBox.png](/resources/inputBox.png)<br/>
+
+2. Source Sheets:  are the 2017, and 2018  sheets; which contain the data of 11 different stock company for the years of 2017 and 2018
     we use this code to active the output data sheet <br/>
-2. output Sheet: is the sheet that we show the results in it.in this project "All Stocks Analysis" is the output sheet.<br/>
+3. Output Sheet: is the sheet that we show the results in it.in this project "All Stocks Analysis" is the output sheet.<br/>
     to active the output data sheet: <br/>
                                         Worksheets("All Stocks Analysis").Activate <br/>
     
     
-3. Arrays that save the result for every ticker: 
+4. Arrays that save the result for every ticker: 
    - tickers : an array to save the name of tickers
    - tickerVolumes : an array to save the total revenue volume of each ticker
    - tickerStartingPrices : an array to save the first price of each ticker
@@ -27,21 +28,21 @@ To have an automated code, we need to use an InputBox to get the choice of the y
     to initialize arrays : <br/>
     ![arrays.png](/resources/arrays.png) <br/>
 
-4. active the sheet that was called by user : 
+5. active the sheet that was called by user : 
     
     Worksheets(yearValue).Activate <br/>
     
     this code calls the soirce sheet of data
     
-5. lets find out how many rows we need to loop over
+6. Lets find out how many rows we need to loop over
     
     RowCount = Cells(Rows.Count, "A").End(xlUp).Row
 
-6. startTime and  endTime : two Single variables to save the code running time
-7. first For loop ( tickerIndex = 0 To 11 )  : to loop over all the rows in the spreadsheet
-8. second For loop ( For i = 2 To RowCount ) : to loop over each ticker data, and calculate the total volume of, startinPrice and endingPrice of each ticker
-9. third For loop ( For i = 0 To 11 ) : to loop through four arrays to output the Ticker name, Total Daily Volume, and Return
-10. formatting section 
+7. startTime and  endTime : two Single variables to save the code running time
+8. first For loop ( tickerIndex = 0 To 11 )  : to loop over all the rows in the spreadsheet
+9. second For loop ( For i = 2 To RowCount ) : to loop over each ticker data, and calculate the total volume of, startinPrice and endingPrice of each ticker
+10. third For loop ( For i = 0 To 11 ) : to loop through four arrays to output the Ticker name, Total Daily Volume, and Return
+11. formatting section 
 
 
 ## Results
