@@ -10,26 +10,23 @@ Steve wants to to expand the dataset to include the entire stock market. I have 
 
 ## Code Review
 The code should do the following:
-- Set the startTime and endTime variables to measure and show the code running time
+- Set the startTime and endTime variables to measure and show the code running time.
+    ![times.png](/resources/times.png)<br/>
+    note that the startTime must be call right after inputBox to calculate the time from this point of progress. <br/>
 
-
-- To have an automated progress, we need to use an InputBox to get the choice of the year from user <br/>
+- To have an automated progress, we need to use an InputBox to get the choice of the year from user. <br/>
 ![inputBox.png](/resources/inputBox.png)<br/>
 ![msgBox.png](/resources/msgBox.png)<br/>
 
-- Source Sheets:  are the 2017, and 2018  sheets; which contain the data of 11 different stock company for the years of 2017 and 2018
-    we use this code to active the output data sheet <br/>
-
-- Output Sheet: is the sheet that we show the results in it. In this project "All Stocks Analysis" is the output sheet.<br/>
+- Format output Sheet: is the sheet that we show the results in it. In this project "All Stocks Analysis" is the output sheet.<br/>
     to format the output data sheet: <br/>
     Worksheets("All Stocks Analysis").Activate <br/>
-    
-    
+       
 - Initialize arrays that save the result for every ticker: 
-   - tickers : an array to save the name of tickers
-   - tickerVolumes : an array to save the total revenue volume of each ticker
-   - tickerStartingPrices : an array to save the first price of each ticker
-   - tickerEndingPrices : an array to save the last price of each ticker<br/>
+   - tickers : an array to save the name of tickers, which we hardcopy the names for this array.
+   - tickerVolumes : an array to save the total revenue volume of each ticker.
+   - tickerStartingPrices : an array to save the first price of each ticker.
+   - tickerEndingPrices : an array to save the last price of each ticker.<br/>
     to initialize arrays : <br/>
     ![arrays.png](/resources/arrays.png) <br/>
 
