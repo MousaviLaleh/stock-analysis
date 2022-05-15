@@ -30,23 +30,21 @@ The code should do the following:
     to initialize arrays : <br/>
     ![arrays.png](/resources/arrays.png) <br/>
 
-5. active the sheet that was called by user : 
+- active the data sheet: 
     
     Worksheets(yearValue).Activate <br/>
     
-    this code calls the source sheet of data to work on <br/>
-    
-6. Lets find out how many rows we need to loop over in the data sheet
+- Find the number of rows to loop over in the data sheet
     
     RowCount = Cells(Rows.Count, "A").End(xlUp).Row
 
-7. 
-    
+- bjhbjf
 
+- first For loop ( tickerIndex = 0 To 11 )  : to loop over all the rows in the spreadsheet
 
-8. first For loop ( tickerIndex = 0 To 11 )  : to loop over all the rows in the spreadsheet
-9. second For loop ( For i = 2 To RowCount ) : to loop over each ticker data, and calculate the total volume of, startinPrice and endingPrice of each ticker
-10. third For loop ( For i = 0 To 11 ) : to loop through four arrays to output the Ticker name, Total Daily Volume, and Return
+- second For loop ( For i = 2 To RowCount ) : to loop over each ticker data, and calculate the total volume of, startinPrice and endingPrice of each ticker
+
+- third For loop ( For i = 0 To 11 ) : to loop through four arrays to output the Ticker name, Total Daily Volume, and Return
 11. formatting section 
 12. ClearWorksheet() subroutine is for clear the entire worksheet from any formatting 
 
