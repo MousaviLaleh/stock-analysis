@@ -16,7 +16,7 @@ The code should do the following:
 
 - To have an automated progress, we need to use an InputBox to get the choice of the year from user. <br/>
 ![inputBox.png](/resources/inputBox.png)<br/>
-![msgBox.png](/resources/msgBox.png)<br/>
+
 
 - Format output Sheet: is the sheet that we show the results in it. In this project "All Stocks Analysis" is the output sheet.<br/>
     to format the output data sheet: <br/>
@@ -45,13 +45,19 @@ The code should do the following:
 multiple conditions check if the current row is the first row with the selected ticker. If it is, then assign the current price to tickerStartingPrices variable. Similarly, for the tickerEndingPrices variable.
     
 
-- third For loop ( For i = 0 To 11 ) : to loop through four arrays to output the Ticker name, Total Daily Volume, and Return <br/>
+- third For loop: to loop through four output arrays to pull the results from, and show the output  in "All Stocks Analysis" sheet.<br/>
   ![forloops_02.png](/resources/forloops_02.png) <br/>
-- formatting section 
-- ClearWorksheet() subroutine is for clear the entire worksheet from any formatting 
+
+- formatting section: by adding some font style, borders, number formatsand also highlishts, we make it easier for Steve to read the data.<br/>
+![formatting.png](/resources/formatting.png) <br/>
 
 
 ## Results
+By running the code, first window is asking the year. Then we have the result in the "All Stocks Analysis" sheet with the highlight of stocks' rise and falls, and also code runtime which indicates the performance of the refactored code.
+![msgBox.png](/resources/msgBox.png)
+![result_2017.png](/resources/result_2017.png)
+![result_2018.png](/resources/result_2017.png)
+
 Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 
 ## Summary
