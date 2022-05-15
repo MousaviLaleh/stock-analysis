@@ -19,11 +19,24 @@ To have an automated code, we need to use an InputBox to get the choice of the y
     Worksheets("All Stocks Analysis").Activate <br/>
     
     
-5. Arrays that save the result for every ticker: 
+3. Arrays that save the result for every ticker: 
    - tickers : an array to save the name of tickers
    - tickerVolumes : an array to save the total revenue volume of each ticker
    - tickerStartingPrices : an array to save the first price of each ticker
-   - tickerEndingPrices : an array to save the last price of each ticker
+   - tickerEndingPrices : an array to save the last price of each ticker<br/>
+    to initialize arrays : <br/>
+    ![arrays.png](/resources/arrays.png) <br/>
+
+4. active the sheet that was called by user : 
+    
+    Worksheets(yearValue).Activate <br/>
+    
+    this code calls the soirce sheet of data
+    
+5. lets find out how many rows we need to loop over
+    
+    RowCount = Cells(Rows.Count, "A").End(xlUp).Row
+
 6. startTime and  endTime : two Single variables to save the code running time
 7. first For loop ( tickerIndex = 0 To 11 )  : to loop over all the rows in the spreadsheet
 8. second For loop ( For i = 2 To RowCount ) : to loop over each ticker data, and calculate the total volume of, startinPrice and endingPrice of each ticker
