@@ -1,6 +1,5 @@
 # Green Stock Analysis
-##### :card_file_box: [Download the refactored_File](VBA_Challenge.xlsm)
-##### :card_file_box: [Download the original_File](VBA_Challenge.txt)
+
 
 ## Overview of Project
 Steve, a friend, is passionate about Green Energy stocks and would like to find out which company has the best performance, to invest in, specifically DAQO New Energy Corporation, a company which makes silicon wafers for solar panels.<br/>
@@ -12,7 +11,7 @@ In first step we found out that the DAQO Corp had a drop in the stock. Now, Stev
 
 ## Code Review
 ##### :card_file_box: [Download the refactored_File](VBA_Challenge.xlsm)
-##### :card_file_box: [Download the original_File](VBA_Challenge.txt) <br/>
+##### :card_file_box: [Download the original_File](original.vbs) <br/>
 The code code follows the steps:
 - Set the startTime and endTime variables to measure and show the code running time.<br/>
     ![times.png](/Resources/times.png)<br/>
