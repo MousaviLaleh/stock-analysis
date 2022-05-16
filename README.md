@@ -12,11 +12,11 @@ Steve wants to to expand the dataset to include the entire stock market. I have 
 ## Code Review
 The code should do the following:
 - Set the startTime and endTime variables to measure and show the code running time.<br/>
-    ![times.png](/resources/times.png)<br/>
+    ![times.png](/Resources/times.png)<br/>
     note that the startTime must be call right after inputBox to calculate the time from this point of progress. <br/>
 
 - To have an automated progress, we need to use an InputBox to get the choice of the year from user. <br/>
-![inputBox.png](/resources/inputBox.png)<br/>
+![inputBox.png](/Resources/inputBox.png)<br/>
 
 
 - Format output Sheet: is the sheet that we show the results in it. In this project "All Stocks Analysis" is the output sheet.<br/>
@@ -29,7 +29,7 @@ The code should do the following:
    - tickerStartingPrices : an array to save the first price of each ticker.
    - tickerEndingPrices : an array to save the last price of each ticker.<br/>
     to initialize arrays : <br/>
-    ![arrays.png](/resources/arrays.png) <br/>
+    ![arrays.png](/Resources/arrays.png) <br/>
 
 - active the data sheet: 
     
@@ -42,7 +42,7 @@ The code should do the following:
 - Create two For loop to work on data
     - first For loop : to loop through the tickers and initialize the tickerVolumes to zero.
     - inner For loop + conditional : to loop over all the rows in the spreadsheet, and calculate the total volume, startinPrice and endingPrice for each ticker <br/>
-  ![forloops_01.png](/resources/forloops_01.png) <br/>
+  ![forloops_01.png](/Resources/forloops_01.png) <br/>
 multiple conditions check if the current row is the first row with the selected ticker. If it is, then assign the current price to tickerStartingPrices variable. Similarly, for the tickerEndingPrices variable.
     
 
@@ -50,14 +50,14 @@ multiple conditions check if the current row is the first row with the selected 
   ![forloops_02.png](/resources/forloops_02.png) <br/>
 
 - formatting section: by adding some font style, borders, number formatsand also highlishts, we make it easier for Steve to read the data.<br/>
-![formatting.png](/resources/formatting.png) <br/>
+![formatting.png](/Resources/formatting.png) <br/>
 
 
 ## Results
 By running the code, first window is asking the year, then we have the result in the "All Stocks Analysis" sheet with the highlight of stocks' rise and falls, and also code runtime which indicates the performance of the refactored code. <br/>
-![msgBox.png](/resources/msgBox.png) ---  ![runTime_2018.png](/resources/runTime_2018.png) <br/>
-![result_2017.png](/resources/result_2017.png) --- 
-![result_2018.png](/resources/result_2017.png) <br/>
+![msgBox.png](/resources/msgBox.png) ---  ![runTime_2018.png](/Resources/runTime_2018.png) <br/>
+![result_2017.png](/Resources/result_2017.png) --- 
+![result_2018.png](/Resources/result_2017.png) <br/>
 
 Most tickers have significant drop in their stocks in 2018, which narrows the Steve's investing down to two tickers, RUN and ENPH. The RUN ticker has a skyrocket rise in the stock in compare to 2017.<br/>
 
