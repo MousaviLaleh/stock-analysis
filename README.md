@@ -18,8 +18,8 @@ The code code follows the steps:
 - InputBox: to work on every single stock, we use an InputBox to select the year by user. <br/>
     ![inputbox.png](/Resources/inputbox.png)<br/>
 
-- create a tickeIndex to loop over output arrays, and set it to zero <br/>
-  ![ticketIndex.png](/Resources/ticketIndex.png) <br/> 
+- create a tickeIndex variable to loop over output arrays, and set it to zero <br/>
+  ![tickerIndex.png](/Resources/tickerIndex.png) <br/> 
 
 - Format output Sheet: output sheet, is the sheet that we show the code results in that. In this project "All Stocks Analysis" is the output sheet.<br/>
     to format the output data sheet: <br/>
