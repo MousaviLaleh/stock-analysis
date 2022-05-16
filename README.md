@@ -11,7 +11,7 @@ In first step we found out that the DAQO Corp had a drop in the stock. Now, Stev
 
 ## Code Review
 ##### :card_file_box: [Refactored_File - VBA_Challenge.xlsm](VBA_Challenge.xlsm)
-##### :card_file_box: [Original_File - original.txt](original.txt)
+##### :card_file_box: [Original_File - Challenge.xlsm](Challenge.xlsm)
 The refactored code code follows the steps:
 - Set the startTime and endTime variables to measure and show the code running time.<br/>
     ![times.png](/Resources/times.png)<br/>
