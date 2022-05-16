@@ -55,8 +55,8 @@ The code code follows the steps:
 
 ## Results
 By running the code, first window is asking the year, then we have the result in the "All Stocks Analysis" sheet with the highlight of stocks' rise and falls, and also code runtime which indicates the performance of the refactored code. <br/><br/>
-![msgbox.png](/Resources/msgbox.png) -----  ![runtime_2018.png](/Resources/runtime_2018.png) <br/>
-![result_2017.png](/Resources/result_2017.png) ------
+![msgbox.png](/Resources/msgbox.png) - - - - - -  ![runtime_2018.png](/Resources/runtime_2018.png) <br/><br/>
+![result_2017.png](/Resources/result_2017.png) - - - - - 
 ![result_2018.png](/Resources/result_2017.png) <br/>
 
 Most tickers have significant drop in their stocks in 2018, which narrows the Steve's investing down to two tickers, RUN and ENPH. The RUN ticker has a skyrocket stock rise in 2018 in compare to 2017.<br/>
