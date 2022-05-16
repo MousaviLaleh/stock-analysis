@@ -1,4 +1,4 @@
-# stock-analysis
+# Green Stock Analysis
 ##### :card_file_box: [Download the VBA_Challenge.xlsm File](VBA_Challenge.xlsm)
 
 ## Overview of Project
