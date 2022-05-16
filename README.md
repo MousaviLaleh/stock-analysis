@@ -54,7 +54,7 @@ The code code follows the steps:
 
 
 ## Results
-By running the code, first window is asking the year, then we have the result in the "All Stocks Analysis" sheet with the highlight of stocks' rise and falls, and also code runtime which indicates the performance of the refactored code. <br/>
+By running the code, first window is asking the year, then we have the result in the "All Stocks Analysis" sheet with the highlight of stocks' rise and falls, and also code runtime which indicates the performance of the refactored code. <br/><br/>
 ![msgbox.png](/Resources/msgbox.png) -----  ![runtime_2018.png](/Resources/runtime_2018.png) <br/>
 ![result_2017.png](/Resources/result_2017.png) ------
 ![result_2018.png](/Resources/result_2017.png) <br/>
