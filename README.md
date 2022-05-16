@@ -47,15 +47,15 @@ multiple conditions check if the current row is the first row with the selected 
     
 
 - third For loop: to loop through four output arrays to pull the results from, and show the output  in "All Stocks Analysis" sheet.<br/>
-  ![forloops_02.png](/resources/forloops_02.png) <br/>
+  ![forloops_02.png](/Resources/forloops_02.png) <br/>
 
 - formatting section: by adding some font style, borders, number formatsand also highlishts, we make it easier for Steve to read the data.<br/>
-![formatting.png](/Resources/formatting.png) <br/>
+  ![formatting.png](/Resources/formatting.png) <br/>
 
 
 ## Results
 By running the code, first window is asking the year, then we have the result in the "All Stocks Analysis" sheet with the highlight of stocks' rise and falls, and also code runtime which indicates the performance of the refactored code. <br/>
-![msgbox.png](/resources/msgbox.png) -----  ![runtime_2018.png](/Resources/runtime_2018.png) <br/>
+![msgbox.png](/Resources/msgbox.png) -----  ![runtime_2018.png](/Resources/runtime_2018.png) <br/>
 ![result_2017.png](/Resources/result_2017.png) ------
 ![result_2018.png](/Resources/result_2017.png) <br/>
 
