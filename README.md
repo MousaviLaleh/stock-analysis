@@ -55,7 +55,7 @@ multiple conditions check if the current row is the first row with the selected 
 
 ## Results
 By running the code, first window is asking the year, then we have the result in the "All Stocks Analysis" sheet with the highlight of stocks' rise and falls, and also code runtime which indicates the performance of the refactored code. <br/>
-![msgBox.png](/resources/msgBox.png) ---  ![runTime_2018.png](/Resources/runTime_2018.png) <br/>
+![msgbox.png](/resources/msgBox.png) ---  ![runTime_2018.png](/Resources/runTime_2018.png) <br/>
 ![result_2017.png](/Resources/result_2017.png) --- 
 ![result_2018.png](/Resources/result_2017.png) <br/>
 
