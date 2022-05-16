@@ -1,5 +1,6 @@
 # Green Stock Analysis
-##### :card_file_box: [Download the VBA_Challenge.xlsm File](VBA_Challenge.xlsm)
+##### :card_file_box: [Download the refactored_File](VBA_Challenge.xlsm)
+##### :card_file_box: [Download the original_File](VBA_Challenge.txt)
 
 ## Overview of Project
 Steve, a friend, is passionate about Green Energy stocks and would like to find out which company has the best performance, to invest in, specifically DAQO New Energy Corporation, a company which makes silicon wafers for solar panels.<br/>
@@ -10,6 +11,8 @@ In first step we found out that the DAQO Corp had a drop in the stock. Now, Stev
 
 
 ## Code Review
+##### :card_file_box: [Download the refactored_File](VBA_Challenge.xlsm)
+##### :card_file_box: [Download the original_File](VBA_Challenge.txt) <br/>
 The code code follows the steps:
 - Set the startTime and endTime variables to measure and show the code running time.<br/>
     ![times.png](/Resources/times.png)<br/>
@@ -56,7 +59,7 @@ The code code follows the steps:
 
 
 ## Results
-By running the code, first window is asking the year, then we have the result in the "All Stocks Analysis" sheet with the highlight of stocks' rise and falls, and also code runtime which indicates the performance of the refactored code. <br/><br/>
+By running the code, the first pop-up window is asking the year. After entering the year, we have the result in the "All Stocks Analysis" sheet with the highlight of stocks' rise and falls, and also code runtime which indicates the performance of the refactored code. <br/><br/>
 ![msgbox.png](/Resources/msgbox.png) - - - - - -  ![runtime_2018.png](/Resources/runtime_2018.png) <br/><br/>
 ![result_2017.png](/Resources/result_2017.png) - - - - - 
 ![result_2018.png](/Resources/result_2017.png) <br/>
