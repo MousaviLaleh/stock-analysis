@@ -13,25 +13,25 @@ In first step we found out that the DAQO Corp had a drop in the stock. Now, Stev
 The code code follows the steps:
 - Set the startTime and endTime variables to measure and show the code running time.<br/>
     ![times.png](/Resources/times.png)<br/>
-    note that the startTime must be call right after inputBox to calculate the time from this point of progress. <br/>
+    note that the startTime must be callثی right after inputBox to calculate the time from this point forward. <br/>
 
-- To have an automated progress, we need to use an InputBox to get the choice of the year from user. <br/>
-![inputbox.png](/Resources/inputbox.png)<br/>
+- InputBox: to work on every single stock, we use an InputBox to select the year by user. <br/>
+    ![inputbox.png](/Resources/inputbox.png)<br/>
 
 
-- Format output Sheet: is the sheet that we show the results in it. In this project "All Stocks Analysis" is the output sheet.<br/>
+- Format output Sheet: output sheet, is the sheet that we show the code results in that. In this project "All Stocks Analysis" is the output sheet.<br/>
     to format the output data sheet: <br/>
     Worksheets("All Stocks Analysis").Activate <br/>
        
 - Initialize arrays that save the result for every ticker: 
-   - tickers : an array to save the name of tickers, which we hardcopy the names for this array.
-   - tickerVolumes : an array to save the total revenue volume of each ticker.
+   - tickers : an array to save the tickers' name, which we hardcopy the names for this array.
+   - tickerVolumes : an array to save the total stock volume of each ticker.
    - tickerStartingPrices : an array to save the first price of each ticker.
    - tickerEndingPrices : an array to save the last price of each ticker.<br/>
     to initialize arrays : <br/>
     ![arrays.png](/Resources/arrays.png) <br/>
 
-- active the data sheet: 
+- Active the data sheet: 
     
     Worksheets(yearValue).Activate <br/>
     
@@ -39,11 +39,11 @@ The code code follows the steps:
     
     RowCount = Cells(Rows.Count, "A").End(xlUp).Row
 
-- Create two For loop to work on data
+- Create two For loops to work on data:
     - first For loop : to loop through the tickers and initialize the tickerVolumes to zero.
     - inner For loop + conditional : to loop over all the rows in the spreadsheet, and calculate the total volume, startinPrice and endingPrice for each ticker <br/>
-  ![forloops_01.png](/Resources/forloops_01.png) <br/>
-multiple conditions check if the current row is the first row with the selected ticker. If it is, then assign the current price to tickerStartingPrices variable. Similarly, for the tickerEndingPrices variable.
+        ![forloops_01.png](/Resources/forloops_01.png) <br/>
+      multiple conditions check if the current row is the first row with the selected ticker. If it is, then assign the current price to tickerStartingPrices variable. Similarly, for the tickerEndingPrices variable.
     
 
 - third For loop: to loop through four output arrays to pull the results from, and show the output  in "All Stocks Analysis" sheet.<br/>
