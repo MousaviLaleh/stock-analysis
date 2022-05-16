@@ -43,13 +43,13 @@ The code code follows the steps:
     - first For loop : to loop through the tickers and initialize the tickerVolumes to zero.
     - inner For loop + conditional : to loop over all the rows in the spreadsheet, and calculate the total volume, startinPrice and endingPrice for each ticker <br/>
     ![forloops_01.png](/Resources/forloops_01.png) <br/>
-     multiple conditions check if the current row is the first row with the selected ticker. If it is, then assign the current price to tickerStartingPrices variable. Similarly, for the tickerEndingPrices variable.
+     Multiple conditions check if the current row is the first row with the selected ticker. If it is, then assign the current price to tickerStartingPrices variable. Similarly, for the tickerEndingPrices variable.
     
 
-- third For loop: to loop through four output arrays to pull the results from, and show the output  in "All Stocks Analysis" sheet.<br/>
+- third For loop: to loop through four output arrays to pull the results from, and show the outputs in "All Stocks Analysis" sheet.<br/>
   ![forloops_02.png](/Resources/forloops_02.png) <br/>
 
-- formatting section: by adding some font style, borders, number formatsand also highlishts, we make it easier for Steve to read the data.<br/>
+- formatting section: by adding some font style, borders, number formats and highlishts, we make it easier for Steve to read the data.<br/>
   ![formatting.png](/Resources/formatting.png) <br/>
 
 
@@ -59,8 +59,8 @@ By running the code, first window is asking the year, then we have the result in
 ![result_2017.png](/Resources/result_2017.png) ------
 ![result_2018.png](/Resources/result_2017.png) <br/>
 
-Most tickers have significant drop in their stocks in 2018, which narrows the Steve's investing down to two tickers, RUN and ENPH. The RUN ticker has a skyrocket rise in the stock in compare to 2017.<br/>
+Most tickers have significant drop in their stocks in 2018, which narrows the Steve's investing down to two tickers, RUN and ENPH. The RUN ticker has a skyrocket stock rise in 2018 in compare to 2017.<br/>
 
 ## Summary
-Refactoring is intended to improve the design and structure of the code, while preserving its functionality. It makes the code easier to understand but it takes time. By using arrays and indexes, I could easily surf through and work with datasets. Comments show us what each code is going to do and Timer is a good help to see the performance of a code. <br/>
+Refactoring is intended to improve the design and structure of the code, while preserving its functionality. It makes the code easier to understand but it takes time. By using arrays and indexes, I could easily surf through and work with datasets. Comments show us what each code is going to do and Timer is a good help to see the performance of a code. <br/><br/>
 
