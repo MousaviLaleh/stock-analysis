@@ -42,8 +42,8 @@ The code code follows the steps:
 - Create For loops to work on data:
     - first For loop : to loop through the tickers and initialize the tickerVolumes to zero.
     - inner For loop + conditional : to loop over all the rows in the spreadsheet, and calculate the total volume, startinPrice and endingPrice for each ticker <br/>
-      ![forloops_01.png](/Resources/forloops_01.png) <br/>
-      multiple conditions check if the current row is the first row with the selected ticker. If it is, then assign the current price to tickerStartingPrices variable. Similarly, for the tickerEndingPrices variable.
+    ![forloops_01.png](/Resources/forloops_01.png) <br/>
+     multiple conditions check if the current row is the first row with the selected ticker. If it is, then assign the current price to tickerStartingPrices variable. Similarly, for the tickerEndingPrices variable.
     
 
 - third For loop: to loop through four output arrays to pull the results from, and show the output  in "All Stocks Analysis" sheet.<br/>
