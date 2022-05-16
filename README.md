@@ -16,7 +16,7 @@ The code should do the following:
     note that the startTime must be call right after inputBox to calculate the time from this point of progress. <br/>
 
 - To have an automated progress, we need to use an InputBox to get the choice of the year from user. <br/>
-![inputBox.png](/Resources/inputBox.png)<br/>
+![inputbox.png](/Resources/inputbox.png)<br/>
 
 
 - Format output Sheet: is the sheet that we show the results in it. In this project "All Stocks Analysis" is the output sheet.<br/>
@@ -55,7 +55,7 @@ multiple conditions check if the current row is the first row with the selected 
 
 ## Results
 By running the code, first window is asking the year, then we have the result in the "All Stocks Analysis" sheet with the highlight of stocks' rise and falls, and also code runtime which indicates the performance of the refactored code. <br/>
-![msgBox.png](/resources/msgBox.png) -----  ![runTime_2018.png](/Resources/runTime_2018.png) <br/>
+![msgbox.png](/resources/msgbox.png) -----  ![runtime_2018.png](/Resources/runtime_2018.png) <br/>
 ![result_2017.png](/Resources/result_2017.png) ------
 ![result_2018.png](/Resources/result_2017.png) <br/>
 
