@@ -1,4 +1,5 @@
 # stock-analysis
+[Download Stock Analysis File](VBA_Challenge.xlsm)
 
 ## Overview of Project
 Steve wnats to research about Green Energy stocks and finds out which company has the best performance, to invest in, specifically DAQO New Energy Corporation, a company that makes silicon wafers for solar panels.<br/>
@@ -53,15 +54,15 @@ multiple conditions check if the current row is the first row with the selected 
 
 
 ## Results
-By running the code, first window is asking the year. Then we have the result in the "All Stocks Analysis" sheet with the highlight of stocks' rise and falls, and also code runtime which indicates the performance of the refactored code. <br/>
+By running the code, first window is asking the year, then we have the result in the "All Stocks Analysis" sheet with the highlight of stocks' rise and falls, and also code runtime which indicates the performance of the refactored code. <br/>
 ![msgBox.png](/resources/msgBox.png) <br/>
 ![result_2017.png](/resources/result_2017.png) --- 
 ![result_2018.png](/resources/result_2017.png) <br/>
-Most tickers have significant drop in their stocks in 2018, which narrows the Steve's investing dow to two tickers, RUN and ENPH. The RUN ticker has a skyrocket rise in the stock in compare to 2017.
-Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
+![runTime_2018.png](/resources/runTime_2018.png) <br/>
+Most tickers have significant drop in their stocks in 2018, which narrows the Steve's investing down to two tickers, RUN and ENPH. The RUN ticker has a skyrocket rise in the stock in compare to 2017.<br/>
 
 ## Summary
-Refactoring is intended to improve the design, structure, and/or implementation of the software, while preserving its functionality. By using inputBox we can maneuver in different datasets. Arrays, Indexes, For loops and Conditional formatting in this project helped us to easily work with dozen of data and rows in each dataset.
+Refactoring is intended to improve the design and structure of the code, while preserving its functionality. It makes the code easier to understand but it takes time. By using arrays and indexes, user can 
 
 address the following questions:
   What are the advantages or disadvantages of refactoring code?
