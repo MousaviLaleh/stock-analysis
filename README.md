@@ -57,10 +57,12 @@ By running the code, first window is asking the year. Then we have the result in
 ![msgBox.png](/resources/msgBox.png) <br/>
 ![result_2017.png](/resources/result_2017.png) --- 
 ![result_2018.png](/resources/result_2017.png) <br/>
-
+Most tickers have significant drop in their stocks in 2018, which narrows the Steve's investing dow to two tickers, RUN and ENPH. The RUN ticker has a skyrocket rise in the stock in compare to 2017.
 Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 
 ## Summary
+Refactoring is intended to improve the design, structure, and/or implementation of the software, while preserving its functionality. By using inputBox we can maneuver in different datasets. Arrays, Indexes, For loops and Conditional formatting in this project helped us to easily work with dozen of data and rows in each dataset.
+
 address the following questions:
   What are the advantages or disadvantages of refactoring code?
   How do these pros and cons apply to refactoring the original VBA script?
