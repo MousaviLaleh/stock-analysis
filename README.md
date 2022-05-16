@@ -64,5 +64,5 @@ By running the code, first window is asking the year, then we have the result in
 Most tickers have significant drop in their stocks in 2018, which narrows the Steve's investing down to two tickers, RUN and ENPH. The RUN ticker has a skyrocket stock rise in 2018 in compare to 2017.<br/>
 
 ## Summary
-Refactoring is intended to improve the design and structure of the code, while preserving its functionality. It makes the code easier to understand but it takes time. By using arrays and indexes, I could easily surf through and work with datasets. Comments show us what each code is going to do and Timer is a good help to see the performance of a code. <br/><br/>
+Refactoring is intended to improve the design and structure of the code, while preserving its functionality. It makes the code easier to understand but it takes time. A huge risk with refactoring is that your errors may destroy an already working code. It is highly recommended that you save your original code and any changes you make frequently in case you run into any issues. That way you can always go back a step without needing to start completely over. <br/><br/>
 
