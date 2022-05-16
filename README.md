@@ -2,11 +2,11 @@
 ##### :card_file_box: [Download the VBA_Challenge.xlsm File](VBA_Challenge.xlsm)
 
 ## Overview of Project
-Steve wnats to research about Green Energy stocks and finds out which company has the best performance, to invest in, specifically DAQO New Energy Corporation, a company that makes silicon wafers for solar panels.<br/>
-I will be using VBA ( Visual Basic for Appllication ) throughout this project, to automate tasks and reus codes for any stock. VBA reduces the chance of accidents and errors and increases the code running time.<br/>
+Steve, a friend, is passionate about Green Energy stocks and finds out which company has the best performance, to invest in, specifically DAQO New Energy Corporation, a company that makes silicon wafers for solar panels.<br/>
+I will be using VBA ( Visual Basic for Appllication ) throughout this project, to automate tasks and reuse codes for any stock. VBA reduces the chance of accidents and errors and increases the code running time.<br/>
 
 ### Purpose
-Steve wants to to expand the dataset to include the entire stock market. I have prepared an Excel file containing the stock data over the last few years. The purpose is improving the logic of the VBA code in order to make it more efficient to works well for thousands of stocks. At the click of a button, Steve can analyze an entire dataset.<br/>
+Steve wants to expand the dataset to include the entire stock market. I have prepared an Excel file containing the stock data over the last few years. The purpose is improving the logic of the VBA code in order to make it more efficient to works well for thousands of stocks. At the click of a button, Steve can analyze an entire dataset.<br/>
 
 
 ## Code Review
