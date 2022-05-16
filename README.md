@@ -1,5 +1,5 @@
 # stock-analysis
-####[Download Stock Analysis File](green_stocks_01.xlsm)
+#### [Download Stock Analysis File](green_stocks_01.xlsm)
 
 ## Overview of Project
 Steve wnats to research about Green Energy stocks and finds out which company has the best performance, to invest in, specifically DAQO New Energy Corporation, a company that makes silicon wafers for solar panels.<br/>
