@@ -6,7 +6,7 @@ Steve, a friend, is passionate about Green Energy stocks and would like to find 
 We will be using VBA ( Visual Basic for Appllication ) throughout this project, to automate tasks and reuse codes for any stock. VBA reduces the chance of accidents and errors and increases the code running time.<br/>
 
 ### Purpose
-In first step we found out that the DAQO Corp had a drop in the stock. Now, Steve wants to expand his research to include the entire stock market. We have prepared an Excel file containing the stock data over the last few years. The purpose is improving the logic of the VBA code in order to make it more efficient to works well for thousands of stocks. At the click of a button, Steve can analyze an entire dataset.<br/>
+In the first step we found out that the DAQO Corp had a drop over 63% in 2018. Now, Steve wants to expand his research to include the entire stock market, to find some better stocks. We have an Excel file containing the stock data over the last few years. The purpose is improving the logic of the VBA code in order to make it more efficient to works well for thousands of stocks. At the click of a button, Steve can analyze an entire dataset.<br/>
 
 
 ## Code Review
@@ -73,5 +73,5 @@ Results: <br/>
 :small_orange_diamond: Most tickers have significant drop in their stocks in 2018, which narrows the Steve's investing down to two tickers, RUN and ENPH. The RUN ticker has a skyrocket stock rise in 2018 in compare to 2017.<br/>
 
 ## Summary
-Refactoring is intended to improve the design and structure of the code, while preserving its functionality. It makes the code easier to understand but it takes time. A huge risk with refactoring is that your errors may destroy an already working code, which we ran into issues during refactoring. It is highly recommended save the original code, the way we can always go back a step without needing to start completely over. <br/><br/>
+Refactoring is intended to improve the design and structure of the code, while preserving its functionality. It makes the code easier to understand but it takes time. A huge risk with refactoring is that the errors may destroy an already working code. It is highly recommended to save the original code, the way we can always go back a step without needing to start completely over. <br/><br/>
 
