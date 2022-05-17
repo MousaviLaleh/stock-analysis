@@ -17,7 +17,7 @@ The refactored code follows the steps:
     ![times.png](/Resources/times.png)<br/>
     
 
-- InputBox: to work on every single stock, we use an InputBox to select the year by user. <br/>
+- InputBox:  to select the year by user. <br/>
     ![inputbox.png](/Resources/inputbox.png)<br/>
 
 - Create a tickerIndex variable to loop over output arrays, and set it to zero. <br/>
