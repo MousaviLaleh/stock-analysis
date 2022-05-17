@@ -3,10 +3,10 @@
 
 ## Overview of Project
 Steve, a friend, is passionate about Green Energy stocks and would like to find out which company has the best performance, to invest in, specifically DAQO New Energy Corporation, a company which makes silicon wafers for solar panels.<br/>
-I will be using VBA ( Visual Basic for Appllication ) throughout this project, to automate tasks and reuse codes for any stock. VBA reduces the chance of accidents and errors and increases the code running time.<br/>
+We will be using VBA ( Visual Basic for Appllication ) throughout this project, to automate tasks and reuse codes for any stock. VBA reduces the chance of accidents and errors and increases the code running time.<br/>
 
 ### Purpose
-In first step we found out that the DAQO Corp had a drop in the stock. Now, Steve wants to expand his research to include the entire stock market. I have prepared an Excel file containing the stock data over the last few years. The purpose is improving the logic of the VBA code in order to make it more efficient to works well for thousands of stocks. At the click of a button, Steve can analyze an entire dataset.<br/>
+In first step we found out that the DAQO Corp had a drop in the stock. Now, Steve wants to expand his research to include the entire stock market. We have prepared an Excel file containing the stock data over the last few years. The purpose is improving the logic of the VBA code in order to make it more efficient to works well for thousands of stocks. At the click of a button, Steve can analyze an entire dataset.<br/>
 
 
 ## Code Review
