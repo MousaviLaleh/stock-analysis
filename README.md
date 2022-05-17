@@ -12,7 +12,7 @@ In first step we found out that the DAQO Corp had a drop in the stock. Now, Stev
 ## Code Review
 ##### :card_file_box: [refactored file - VBA_Challenge.xlsm](VBA_Challenge.xlsm)
 ##### :card_file_box: [original file - Challenge.xlsm](Challenge.xlsm)
-The refactored code code follows the steps:
+The refactored code follows the steps:
 - Set the startTime and endTime variables to measure and show the code running time.<br/>
     ![times.png](/Resources/times.png)<br/>
     note that the startTime must be callثی right after inputBox to calculate the time from this point forward. <br/>
