@@ -24,7 +24,7 @@ The refactored code follows the steps:
   ![tickerIndex.png](/Resources/tickerIndex.png) <br/> 
 
 - Format output Sheet: output sheet, is the sheet that we show the code results in that. In this project "All Stocks Analysis" is the output sheet. To format the output data sheet:  <br/><br/>
-    Worksheets("All Stocks Analysis").Activate <br/>
+                    - Worksheets("All Stocks Analysis").Activate <br/>
        
 - Initialize arrays that save the result for every ticker: 
    - tickers : an array to save the tickers' name, which we hardcopy the names for this array.
