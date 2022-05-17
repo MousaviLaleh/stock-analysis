@@ -66,7 +66,7 @@ Code runtime for original code : <br/>
 
 Code runtime for refactored code : <br/>
 ![runtime_2017.png](/Resources/runtime_2017.png) - - - - - - 
-![runtime_2018.png](/Resources/runtime_2018.png) <br/>
+![runtime_2018.png](/Resources/runtime_2018.png) <br/><br/>
 Results: <br/>
 ![result_2017.png](/Resources/result_2017.png) - - - - - 
 ![result_2018.png](/Resources/result_2018.png) <br/>
