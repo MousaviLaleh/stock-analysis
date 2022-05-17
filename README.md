@@ -63,9 +63,12 @@ By running the code, the first pop-up window is asking the year. After entering 
 ![result_2017.png](/Resources/result_2017.png) - - - - - 
 ![result_2018.png](/Resources/result_2018.png) <br/>
 Code runtime for original code : <br/>
-![runtime2017.png](/Resources/runtime2017.png) <br/>
+![runtime2017.png](/Resources/runtime2017.png) - - - - - - 
+![runtime2018.png](/Resources/runtime2018.png)<br/>
+
 Code runtime for refactored code : <br/>
-![runtime_2017.png](/Resources/runtime_2017.png) <br/>
+![runtime_2017.png](/Resources/runtime_2017.png) - - - - - - 
+![runtime_2018.png](/Resources/runtime_2018.png) <br/>
 
 Most tickers have significant drop in their stocks in 2018, which narrows the Steve's investing down to two tickers, RUN and ENPH. The RUN ticker has a skyrocket stock rise in 2018 in compare to 2017.<br/>
 
