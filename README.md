@@ -15,7 +15,7 @@ In the first step we found out that the DAQO Corp had a drop over 63% in 2018. N
 The refactored code follows the steps:
 - Set the startTime and endTime variables to measure and show the code running time.<br/>
     ![times.png](/Resources/times.png)<br/>
-    note that the startTime must be callثی right after inputBox to calculate the time from this point forward. <br/>
+    
 
 - InputBox: to work on every single stock, we use an InputBox to select the year by user. <br/>
     ![inputbox.png](/Resources/inputbox.png)<br/>
