@@ -10,8 +10,8 @@ In the first step we found out that the DAQO Corp had a drop over 63% in 2018. N
 
 
 ## Code Review
-##### :card_file_box: [refactored file - VBA_Challenge.xlsm](VBA_Challenge.xlsm)
-##### :card_file_box: [original file - Challenge.xlsm](Challenge.xlsm)
+##### :card_file_box: Refactored File - [VBA_Challenge.xlsm](VBA_Challenge.xlsm)
+##### :card_file_box: Original File - [Challenge.xlsm](Challenge.xlsm)
 The refactored code follows the steps:
 - Set the startTime and endTime variables to measure and show the code running time.<br/>
     ![times.png](/Resources/times.png)<br/>
