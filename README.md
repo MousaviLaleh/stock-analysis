@@ -9,8 +9,8 @@ We will be using VBA ( Visual Basic for Appllication ) throughout this project, 
 The purpose of this analysis is to provide our client with an Excel workbook including an easy-to-run VBA macro able to analyze an entire dataset of stocks. This tool will help him in its financial expertise. <br/>
 
 ## Resources
-- Refactored File:   [VBA_Challenge.xlsm](VBA_Challenge.xlsm)
-- Original File:     [Challenge.xlsm](Challenge.xlsm)
+- Refactored File:&nbsp;   [VBA_Challenge.xlsm](VBA_Challenge.xlsm)
+- Original File:&nbsp;     [Challenge.xlsm](Challenge.xlsm)
 
 
 ## Analysis 
