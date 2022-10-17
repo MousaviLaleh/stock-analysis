@@ -2,7 +2,7 @@
 
 
 ## Overview of Project
-Steve, a friend, is passionate about Green Energy stocks and would like to find out which company has the best performance, to invest in, specifically DAQO New Energy Corporation, a company which makes silicon wafers for solar panels.<br/>
+Analyzing Green Energy stocks to find out which company has the best performance, to invest in. The sample company is DAQO New Energy Corporation, a company which makes silicon wafers for solar panels.<br/>
 We will be using VBA ( Visual Basic for Appllication ) throughout this project, to automate tasks and reuse codes for any stock. VBA reduces the chance of accidents and errors and increases the code running time.<br/>
 
 ### Purpose
