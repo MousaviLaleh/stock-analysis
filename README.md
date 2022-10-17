@@ -6,12 +6,14 @@ Steve, a friend, is passionate about Green Energy stocks and would like to find 
 We will be using VBA ( Visual Basic for Appllication ) throughout this project, to automate tasks and reuse codes for any stock. VBA reduces the chance of accidents and errors and increases the code running time.<br/>
 
 ### Purpose
-In the first step we found out that the DAQO Corp had a drop over 63% in 2018. Now, we want to expand our research to include the entire stock market, to find some better stocks. We have an Excel file containing the stock data over the last few years. The purpose is improving the logic of the VBA code in order to make it more efficient to works well for thousands of stocks. At the click of a button, Steve can analyze an entire dataset.<br/>
+The purpose of this analysis is to provide our client with an Excel workbook including an easy-to-run VBA macro able to analyze an entire dataset of stocks. This tool will help him in its financial expertise. <br/>
 
-
-## Code Review
+## Resources
 ##### :card_file_box: Refactored File:   [VBA_Challenge.xlsm](VBA_Challenge.xlsm)
 ##### :card_file_box: Original File:     [Challenge.xlsm](Challenge.xlsm)
+
+
+## Analysis 
 The refactored code follows the steps:
 - Set the startTime and endTime variables to measure and show the code running time.<br/>
     ![times.png](/Resources/times.png)<br/>
